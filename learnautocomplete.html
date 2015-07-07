@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Learning</title>
+	<link rel="stylesheet" type="text/css" href="learnautocomplete.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+</head>
+<body onload="initialize()">
+	<div id="upperhalf">
+		<div id="image-container">
+		<!-- <p id="msgdisplay"></p> -->
+			<div id="searchbox">		
+				<input type="text" id="search" placeholder="Address Likho!"><br>
+				<input type="text" id="datepick" placeholder="Pick Date.">
+			</div>
+		</div>	
+	</div>
+	<div id="lowerhalf">
+		<div id="details">
+			
+		</div>
+		<button>Click</button> <!--for download-->
+	</div>
+	<script type="text/javascript" src="learnautocomplete.js"></script>
+</body>
+</html>

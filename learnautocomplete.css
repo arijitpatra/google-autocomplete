@@ -1,0 +1,84 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#upperhalf{
+	background-color: blue;
+	width: 100%;
+	position: relative;
+	height: 50%;
+}
+
+#lowerhalf{
+	background-color: #23263c;
+	width: 100%;
+	height: 50%;
+}
+
+#search{
+	width: 50%;
+	border-radius: 5px;
+	padding: 5px;
+	height: 50px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	font-family: 'Open Sans', sans-serif;
+}
+
+#datepick{
+	width: 15%;
+	border-radius: 5px;
+	padding: 2px;
+	height: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;	
+	font-family: 'Open Sans', sans-serif;
+}
+
+#image-container{
+	background: url(u.jpg) center center no-repeat;
+	background-size: cover;
+	height: 100%;
+}
+
+#searchbox{
+	position: relative;
+  	top: 35%;
+}
+
+@media (min-width: 600px) and (max-width: 800px){
+	#searchbox{
+		position: relative;
+  		top: 100px;
+	}
+}
+
+table,tr,td{
+	border: 1px solid #dcf9cf;
+	border-collapse: collapse;
+	padding-left: 5px;
+	font-size: 14px;
+	color: #dcf9cf;
+}
+
+#details{
+	position: relative;
+  	width: 80%;
+    margin: 0 auto;
+}
+
+#dynamictableid{
+	position: absolute;
+    top: 50px;
+  	width: 100%;
+}
+
